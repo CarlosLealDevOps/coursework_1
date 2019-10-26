@@ -28,12 +28,13 @@ class Dec2Hex
         
         while(num != 0)
         {
-	    rem=num%16;
-	    hexadecimal= ch[rem] + hexadecimal;
-            num= num/16;
+	    rem = num%16;
+	    hexadecimal = ch[rem] + hexadecimal;
+            num = num/16;
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-
+	System.out.println("cool!");
     }
 }
+ 
