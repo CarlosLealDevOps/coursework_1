@@ -39,6 +39,7 @@ if (args != null)
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-    }
+System.out.println("test");    
+} 
 }
 } 
