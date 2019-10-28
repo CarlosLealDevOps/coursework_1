@@ -11,7 +11,7 @@ class Dec2Hex
 	{
 		if (args.length == 0)
 		{
-			System.err.println("Please enter an argument (e.g. 15, 6, 29)");
+			System.err.println("Please enter an argument! (e.g. 15, 6, 29)");
 			return;
 		}
 		if (args.length > 0) 
